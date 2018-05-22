@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="JavaScript1.js"></script>
+    <link href="StyleCSS.css" rel="stylesheet" />
+    <title>Grant Chirpus Cafe</title>
+</head>
+<body>
+    <h1>Welcome to the GC cafe!</h1>
+
+    <table id="GCCafeChoices">
+        <tr>
+            <th id="foodOption">
+                Food Option
+            </th>
+            <th id="foodPrice">
+                Price
+            </th>
+            <th id="foodAdd">
+                Add Item
+            </th>
+
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Espresso
+            </td>
+            <td id="foodPrice">
+                $1.99
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Espresso', 1.99)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Fresh Roasted Coffee
+            </td>
+            <td id="foodPrice">
+                $2.99
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Fresh Roasted Coffee', 2.99)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Iced Coffee
+            </td>
+            <td id="foodPrice">
+                $3.99
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Iced Coffee', 3.99)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Soft Drink
+            </td>
+            <td id="foodPrice">
+                $1.50
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Soft Drink', 1.50)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Bottled Water
+            </td>
+            <td id="foodPrice">
+                $0.99
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Bottled Water', 0.99)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Scones
+            </td>
+            <td id="foodPrice">
+                $1.49
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Scones', 1.49)">Add Item</button>
+            </td>
+        </tr>
+        <tr>
+            <td id="foodOption">
+                Breakfast Sandwiches
+            </td>
+            <td id="foodPrice">
+                $4.99
+            </td>
+            <td id="foodAdd">
+                <button class="button" onclick="add('Breakfast Sandwiches', 4.99)">Add Item</button>
+            </td>
+        </tr>
+    </table>
+    <aside id="Selections">
+        <h3>Shopping Cart</h3>
+        <table id="ShoppingCart">
+            <tr>
+                <th> Food Choice</th>
+                <th> Price </th>
+            </tr>
+        </table>
+        <br />
+        <table id="CartTotal" border="0">
+        </table>
+    </aside>
+</body>
+</html>

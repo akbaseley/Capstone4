@@ -1,0 +1,51 @@
+﻿body {
+}
+
+#GCCafeChoices {
+    float: left;
+}
+
+#foodPrice {
+    text-align: center;
+}
+
+table, th, td {
+    border: none;
+    padding: 2px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.button {
+    background-color: cadetblue;
+    border-bottom-style: outset;
+    color: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: crimson;
+}
+
+#Selections {
+    background-color: rgb(95, 200, 204);
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+    float: right; 
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+#CartTotal {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
